@@ -1,0 +1,22 @@
+{
+  "name": "police-parking-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joecoker/police-parking-map.git"
+  },
+  "author": "Joe Coker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joecoker/police-parking-map/issues"
+  },
+  "homepage": "https://github.com/joecoker/police-parking-map#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

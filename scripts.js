@@ -1,4 +1,6 @@
 
+console.log("hello");
+
 function onSubmit() {
 
   let request = new XMLHttpRequest();
@@ -7,7 +9,6 @@ function onSubmit() {
 
   request.onload = function () {
     let data = JSON.parse(this.response);
-
 
   if (request.status >= 200 && request.status < 400) {
     console.log (data);
@@ -18,6 +19,4 @@ function onSubmit() {
   }
 
   request.send();
-
-
   }

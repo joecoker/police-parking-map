@@ -4,8 +4,10 @@ const port = 3000;
 
 const app = express();
 
+const path = require('path');
+
 app.get("/", (req, res) => {
-  res.send({latitude: "1.33474747"});
+  res.sendFile(path.join(__dirname, '/index.html'));
 });
 
 app.listen(port, function () {
